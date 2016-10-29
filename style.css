@@ -1,0 +1,142 @@
+body {
+	background-color: rgb(200,200,255);
+}
+h1 {
+	color: rgb(0,0,120);
+	text-align: center;
+	font-family: fantasy , serif;
+	
+}
+h2 {
+	
+	text-align: center;
+	padding-top: 40px;
+	font-family: sans-serif , serif;	
+	font-style: italic;
+}
+
+h3 {
+	color: rgb(0,0,120);
+	font-family: sans-serif , serif;
+	font-style: italic;
+}
+
+
+h4 {
+	color: rgb(0,0,120);
+	text-align: center;
+}
+
+h5 {
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}
+
+a:link {
+    color: rgb(0,0,120);
+}
+
+
+a:visited {
+    color: rgb(0,0,120);
+}
+
+
+a:hover {
+    color: white;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.flex-container {
+	
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 100% ;
+    background-color: ;
+}
+
+
+.flex-item-0 {
+    background-color: rgb(200,200,255);
+    width: 35%;
+    height: 600px;
+    margin-left: 10px;
+	padding-top: 40px
+}
+.flex-item-1{
+    background-color: rgb(160,160,255);
+    width: 16%;
+    height: 600px;
+    margin: 1px;
+}
+.flex-item-2{
+    background-color: rgb(120,120,255);
+    width: 16%;
+    height: 600px;
+    margin: 1px;
+}
+.flex-item-3{
+    background-color: rgb(80,80,255);
+    width: 16%;
+    height: 600px;
+    margin: 1px;
+}
+.flex-item-4{
+    background-color: rgb(40,40,255);
+    width: 16%;
+    height: 600px;
+    margin: 1px;
+}
+img {
+	width:90%;
+	margin: 20px 10px;
+	
+}
+p {
+	color: rgb(0,0,60);
+	font-size: 18px;
+	max-width: 70%;
+}
+
+	
+
+.div1 {
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin-right: 9%;
+	background-color: rgb(160,160,255);
+	clear: both;  
+	
+}
+.div2 {
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin-right: 9%;
+	background-color: rgb(120,120,255);
+	clear: both;
+}
+.div3 {
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin-right: 9%;
+	background-color: rgb(80,80,255);
+	clear: both;
+}
+
+footer{
+	
+	text-align-last: center
+}
+@media screen and (max-width: 800px) {
+	h2 {
+		font-size: 16px;
+	}
+}
